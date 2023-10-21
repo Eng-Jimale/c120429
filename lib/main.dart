@@ -24,6 +24,10 @@ class Pizza extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+          appBar: AppBar(
+          title: Text('Pizza Restaurant'),
+          backgroundColor: Colors.orange,
+        ),
         body: SafeArea(
           child: ListView.builder(
             
